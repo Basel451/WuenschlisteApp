@@ -34,6 +34,7 @@ public class App extends JFrame{
         liste = new ArrayList<>();
         this.pack();
         setVisible(true);
+        // die Listener für die Button
         showb.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
